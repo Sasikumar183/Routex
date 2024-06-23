@@ -1,0 +1,233 @@
+{
+  "intents": [
+    {
+      "tag": "Hi",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello! How can I assist you today?"],
+      "contexts": [""]
+    },
+    {
+      "tag": "RouteToDepartment",
+      "patterns": ["Route to", "Navigate to", "Directions to", "How to get to"],
+      "responses": ["Sure, I can help you with that. Please wait a moment."],
+      "contexts": ["Department"]
+    },
+    {
+      "tag": "RouteToClass",
+      "patterns": ["How to get to", "Find", "Where is"],
+      "responses": ["Sure, I can help you with that. Please wait a moment."],
+      "contexts": ["Class"]
+    },
+    {
+      "tag": "CSEQueries",
+      "patterns": ["CSE department", "Computer Science department", "CSE classes", "Computer Science classes"],
+      "responses": ["Sure you can reach the CSE department by using the staircase nearer to lift reach the first floor take the right and then again one right walk forward you can see the CSE department"],
+      "contexts": ["CSE"]
+    },
+    {
+      "tag": "ECE",
+      "patterns": ["ECE department", "Electronics and Communication department", "ECE classes", "Electronics and Communication classes"],
+      "responses": ["Certainly! I can guide you. By using the Stair case nearer to lift, Go to Third Floor Take the Right then go forward again take right walk forward you can see the ECE department "],
+      "contexts": ["ECE"]
+    },
+    {
+      "tag": "EEE",
+      "patterns": ["EEE department", "Electrical and Electronic department", "EEE classes", "Electronics and Electronic classes"],
+      "responses": ["Certainly! I can guide you. By using the Stair case nearer to lift, Go to Second Floor Take the Right then go forward again take right walk forward you can see the EEE department "],
+      "contexts": ["EEE"]
+    },
+    {
+      "tag": "CIVIL",
+      "patterns": ["How to get to Civil classes", "Find Civil classes","Civil classes"],
+      "responses": ["Certainly! I can guide you. By using the Stair case nearer to lift, Go to Second Floor Take the Right then go forward again take right walk forward and again take the right you will reach the Civil department"],
+      "contexts": ["Civil"]
+    },
+    {
+      "tag": "AD",
+      "patterns": ["AIDS department", "Artificial department", "AI&DS classes", "Artificial Intelligence and Data Science"],
+      "responses": ["Certainly! I can guide you. By using the Stair case nearer to lift, Go to Third Floor Take the Left then go forward again take left walk forward you can see the Artificial Intelligece and Data Science department "],
+      "contexts": ["AIDS"]
+    },
+    {
+      "tag": "FT",
+      "patterns": ["FT department", "Fashion Technology department", "FT classes", "Artificial Intelligence and Data Science"],
+      "responses": ["Certainly! I can guide you. By using the Stair case nearer to lift, Go to Third Floor infront you can see the Fashion Technology department. "],
+      "contexts": ["AIDS"]
+    },
+    {
+      "tag": "Mech",
+      "patterns": ["Mech department", "Mechanical department","Mech classes", "Mechanical Engineering"],
+      "responses": ["Certainly! I can guide you. By using the Stair case nearer to lift, Go to Second Floor Take the Left then go forward again take left walk forward you can see the Mechanical department "],
+      "contexts": ["mech"]
+    },
+    {
+      "tag": "Science & Humanities ",
+      "patterns": ["S&H department", "Sciece & Humainities department","Science & Humainities classes", "Scienece&Humanities"],
+      "responses": ["Certainly! I can guide you. By using the Stair case nearer to lift, Go to Second Floor Take the Left you can see the Sciene and Humanities Department"],
+      "contexts": ["mech"]
+    },
+    {
+      "tag": "RouteToClass 2nd CSE",
+      "patterns": ["How to get to 2nd CSE", "Find 2nd CSE", "Where is 2nd CSE"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift reach the first floor take the right and then walk forward again take right Go forward you can see CSE department and then walk room no 106 is 2nd CSE"],
+      "contexts": ["2nd CSE"]
+    },
+    {
+      "tag": "RouteToClass 3rd CSE",
+      "patterns": ["How to get to 3rd CSE", "Find 3rd CSE", "Where is 3rd CSE"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift reach the first floor take the right and then walk forward again take right Go forward you can see CSE department and then walk room no 107 is 3rd CSE"],
+      "contexts": ["3rd CSE"]
+    },
+    {
+      "tag": "RouteToClass 4th CSE",
+      "patterns": ["How to get to 4th CSE", "Find 4th CSE", "Where is 4th CSE"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift reach the Third floor take the right and then walk forward again take right Go forward you can see ECE department and then walk room no 108 is 4th CSE"],
+      "contexts": ["4th CSE"]
+    },
+    {
+      "tag": "RouteToClass 2nd ECE",
+      "patterns": ["How to get to 2nd ECE", "Find 2nd ECE", "Where is 2nd ECE"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift reach the Third floor take the right and then walk forward again take right Go forward you can see CSE department and then walk room no 308 is 2nd ECE"],
+      "contexts": ["2nd ECE"]
+    },
+    {
+      "tag": "RouteToClass 3rd ECE",
+      "patterns": ["How to get to 3rd ECE", "Find 3rd ECE", "Where is 3rd ECE"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift reach the Third floor take the right and then walk forward again take right Go forward you can see ECE department and then walk room no 308 is 3rd ECE"],
+      "contexts": ["3rd ECE"]
+    },
+    {
+      "tag": "RouteToClass 4th ECE",
+      "patterns": ["How to get to 4th ECE", "Find 4th ECE", "Where is 4th ECE"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift reach the Third floor take the right and then walk forward again take right Go forward you can see ECE department and then walk room no 308 is 4th ECE"],
+      "contexts": ["4th ECE"]
+    },
+    {
+      "tag": "RouteToClass 2nd EEE",
+      "patterns": ["How to get to 2nd EEE", "Find 2nd EEE", "Where is 2nd EEE"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift reach the Second floor take the right and then walk forward again take right Go forward you can see EEE department and then walk room no 208 is 2nd EEE"],
+      "contexts": ["2nd EEE"]
+    },
+    {
+      "tag": "RouteToClass 3rd EEE",
+      "patterns": ["How to get to 3rd EEE", "Find 3rd EEE", "Where is 3rd EEE"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift reach the Second floor take the right and then walk forward again take right Go forward you can see EEE department and then walk room no 208 is 3rd EEE"],
+      "contexts": ["3rd EEE"]
+    },
+    {
+      "tag": "RouteToClass 4th EEE",
+      "patterns": ["How to get to 4th EEE", "Find 4th EEE", "Where is 4th EEE"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift reach the Second floor take the right and then walk forward again take right Go forward you can see EEE department and then walk room no 208 is 4th EEE"],
+      "contexts": ["4th EEE"]
+    },
+    {
+      "tag": "RouteToClass 2nd FT",
+      "patterns": ["How to get to 2nd FT", "Find 2nd FT", "Where is 2nd FT"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift"],
+      "contexts": ["2nd FT"]
+    },
+    {
+      "tag": "RouteToClass 3rd FT",
+      "patterns": ["How to get to 3rd FT", "Find 3rd FT", "Where is 3rd FT"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift"],
+      "contexts": ["3rd FT"]
+    },
+    {
+      "tag": "RouteToClass 4th FT",
+      "patterns": ["How to get to 4th FT", "Find 4th FT", "Where is 4th FT"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift"],
+      "contexts": ["4th FT"]
+    },
+    {
+      "tag": "RouteToClass 2nd Civil",
+      "patterns": ["How to get to 2nd Civil", "Find 2nd Civil", "Where is 2nd Civil"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift"],
+      "contexts": ["2nd Civil"]
+    },
+    {
+      "tag": "RouteToClass 3rd Civil",
+      "patterns": ["How to get to 3rd Civil", "Find 3rd Civil", "Where is 3rd Civil"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift"],
+      "contexts": ["3rd Civil"]
+    },
+    {
+      "tag": "RouteToClass 4th Civil",
+      "patterns": ["How to get to 4th Civil", "Find 4th Civil", "Where is 4th Civil"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift reach the Second floor take the left and then walk forward again take left Go forward you can see Mechanical department and then walk room no 208 is 2nd Mech"],
+      "contexts": ["4th Civil"]
+    },
+    {
+      "tag": "RouteToClass 2nd Mech",
+      "patterns": ["How to get to 2nd Mech", "Find 2nd Mech", "Where is 2nd Mech","Where is 2nd Mech"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift reach the Second floor take the left and then walk forward again take left Go forward you can see Mechanical department and then walk room no 208 is 3rd Mech"],
+      "contexts": ["2nd Mech"]
+    },
+    {
+      "tag": "RouteToClass 3rd Mech",
+      "patterns": ["How to get to 3rd Mech", "Find 3rd Mech", "Where is 3rd Mech","Where is 3rd Mechanics"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift"],
+      "contexts": ["3rd Mech"]
+    },
+    {
+      "tag": "RouteToClass 4th Mechanics",
+      "patterns": ["How to get to 4th Mech", "Find 4th Mech", "Where is 4th Mech","Where is 4th Mechanics"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift"],
+      "contexts": ["4th Mech"]
+    },
+    {
+      "tag": "RouteToClass 2nd Aids",
+      "patterns": ["How to get to 2nd Aids", "Find 2nd Aids", "Where is 2nd Aids"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift"],
+      "contexts": ["2nd Aids"]
+    },
+    {
+      "tag": "RouteToClass 3rd Aids",
+      "patterns": ["How to get to 3rd Aids", "Find 3rd Aids", "Where is 3rd Aids"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift"],
+      "contexts": ["3rd Aids"]
+    },
+    {
+      "tag": "RouteToClass 4th Aids",
+      "patterns": ["How to get to 4th Aids", "Find 4th Aids", "Where is 4th Aids"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift"],
+      "contexts": ["4th Aids"]
+    },
+    {
+      "tag": "RouteToClass Lab1",
+      "patterns": ["How to get to Lab1", "Find Lab1", "Where is Lab1"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift"],
+      "contexts": ["Lab1"]
+    },
+    {
+      "tag": "RouteToClass Lab2",
+      "patterns": ["How to get to Lab2", "Find Lab2", "Where is Lab2"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift"],
+      "contexts": ["Lab2"]
+    },
+    {
+      "tag": "RouteToClass Lab3",
+      "patterns": ["How to get to Lab3", "Find Lab3", "Where is Lab3"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift"],
+      "contexts": ["Lab3"]
+    },
+    {
+      "tag": "RouteToClass Lab4",
+      "patterns": ["How to get to Lab4", "Find Lab4", "Where is Lab4"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift"],
+      "contexts": ["Lab4"]
+    },
+    {
+      "tag": "RouteToClass Lab5",
+      "patterns": ["How to get to Lab5", "Find Lab5", "Where is Lab5"],
+      "responses": ["Sure, I can help you with that. Using the staircase nearer to Lift"],
+      "contexts": ["Lab5"]
+    }
+
+
+
+
+
+
+
+  ]
+}
